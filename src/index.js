@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App';
+import {CounterWithCustomHook} from './components/01-useState/CounterAppWithCustomHooks';
 
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(<CounterWithCustomHook />, document.getElementById('app'));
