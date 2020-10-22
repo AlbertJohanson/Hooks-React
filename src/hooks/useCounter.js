@@ -1,12 +1,12 @@
 /* eslint-disable import/prefer-default-export */
 import  {useState} from 'react'
 
-export const useCounter = ( initialCounter = 10 ) => {
+export const useCounter = ( initialCounter = 1 ) => {
     
     const [count, setCounter] = useState(initialCounter)
 
-    const increment = (factor = 1) => {
-        setCounter( count + factor)
+    const increment = () => {
+        setCounter( count + 1)
     }
     
 
@@ -14,8 +14,8 @@ export const useCounter = ( initialCounter = 10 ) => {
         setCounter(initialCounter)
     }
 
-    const Decrement = (factor = 1) => {
-        setCounter( count - factor)
+    const Decrement = () => {
+        setCounter( count - 1)
     }
 
     return {
