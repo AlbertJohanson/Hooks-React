@@ -11,8 +11,9 @@ import ReactDOM from 'react-dom';
 /* import {MultipleCustomHooks} from './components/03-CustomHook/MultipleCustomHooks' */
 /* import {FocusScreen} from './components/04-useRef/FocusScreen' */
 /* import { Memorize } from './components/06- useMemo/Memorize'; */
-import { MemoHooks } from './components/06- useMemo/MemoHooks';
+/* import { MemoHooks } from './components/06- useMemo/MemoHooks'; */
+import { CallbackHook } from './components/07- useCallback/CallbackHook';
 
 
-ReactDOM.render(<MemoHooks />, document.getElementById('app'));
+ReactDOM.render(<CallbackHook />, document.getElementById('app'));
 
