@@ -4,7 +4,8 @@
  import React from 'react'; 
 import ReactDOM from 'react-dom';
 /* import './components/09-useReducer/intro-reducer' */ 
-import { TodoApp } from './components/09-useReducer/TodoApp';
+/* import { TodoApp } from './components/09-useReducer/TodoApp'; */
+import { MainApp } from './components/10- useContext/MainApp';
 /* import { LayoutEffect } from './components/05-useLayoutEffect/LayoutEffect';
  *//* import { RealExampleRef } from './components/04-useRef/RealExampleRef'; *//* import  CounterApp from '../src/components/01-useState/useState'; */
 /* import HookApp from '../HookApp'; */
@@ -19,5 +20,5 @@ import { TodoApp } from './components/09-useReducer/TodoApp';
  *//* import { Padre } from './components/08- tarea-memo/Padre'; */
 
 
-ReactDOM.render(<TodoApp />, document.getElementById('app'));
+ReactDOM.render(<MainApp />, document.getElementById('app'));
 
